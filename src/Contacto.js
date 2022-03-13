@@ -1,20 +1,21 @@
 import React from 'react'
 
-export default function Contacto() {
+function Contacto() {
   return (
     <form>
       <h1>Contacto</h1>
       <label for= "email">Correo Electronico</label>
-      <br/>
+       <br/>
       <input id= "email" type= "email" required/>
       <br/><br/>
 
-      <label for = "mensaje">Mensaje</label> 
+      <label for= "mensaje">Mensaje</label> 
       <br/>
-      <textarea id = "mensaje"></textarea>
+      <textarea id= "mensaje"></textarea>
       <br/><br/>
-      <button type="button">Enviar</button>
-
+      <button type='button'>Enviar</button>
     </form>
   )
 }
+
+export default Contacto
